@@ -42,7 +42,6 @@ const options: ApexOptions = {
       '2021-07-23T00:00:00.000Z',
       '2021-07-24T00:00:00.000Z',
       '2021-07-25T00:00:00.000Z',
-      '2021-07-26T00:00:00.000Z',
     ]
   },
   fill: {
@@ -57,7 +56,7 @@ const options: ApexOptions = {
 }
 
 const series = [
-  { name: 'series1', data: [31, 120, 10, 28 , 123, 150, 200] }
+  { name: 'series1', data: [31, 120, 10, 28 , 123, 150] }
 ]
 
 export default function Dashboard() {
